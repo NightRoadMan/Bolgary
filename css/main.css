@@ -305,7 +305,7 @@ ul, li {
     background: #c9c9c9;
     color: #224663;
     text-decoration: none;
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 /*Стилизация 4-той секции Недвижемость*/
@@ -366,8 +366,9 @@ ul, li {
     width: 765px;
     text-align: center;
     position: relative;
-    margin: 7px auto 0 auto;
+    margin: 7px auto 130px auto;
     position: relative;
+
 }
 
 .home-car-grey-subcard-descrip {
@@ -390,4 +391,20 @@ ul, li {
     top: -20%;
     left: 50%;
     margin-left: -30px;
+}
+
+.see-more-button-modify {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 216px;
+    height: 62px;
+    color: #23aae2;
+    border-color: #23aae2;
+}
+
+.see-more-button-modify:hover {
+    color: #fff;
+    border-color: #23aae2;
+    background: #23aae2;
 }
