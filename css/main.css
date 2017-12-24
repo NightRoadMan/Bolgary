@@ -206,8 +206,6 @@ ul, li {
     font-size: 42px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    padding: 0;
-    margin: 0;
 }
 
 .sand-main-blockquote {
@@ -311,3 +309,85 @@ ul, li {
 }
 
 /*Стилизация 4-той секции Недвижемость*/
+
+.home-car {
+    background: url(../img/city.png) center bottom no-repeat,
+    #fff;
+    background-size: cover;
+    padding: 108px 0 97px 0;
+}
+
+.home-car-main-text {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.home-car-grey-card {
+    background: #f4f4f4;
+    padding: 70px 10px 40px 10px;
+    box-shadow: 0 2px 4px rgba(149,149,149,0.33);
+    width: 765px;
+    text-align: center;
+    position: relative;
+    margin: 140px auto 0 auto;
+}
+
+.image-circle {
+    position: absolute;
+    top: -53%;
+    left: 50%;
+    margin-left: -149px;
+}
+
+.home-car-grey-card h3 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.grey-card-text-descrip {
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    width: 675px;
+}
+
+.home-car-grey-subcard {
+    background: #f4f4f4;
+    padding: 45px 10px 45px 10px;
+    box-shadow: 0 2px 4px rgba(149,149,149,0.33);
+    width: 765px;
+    text-align: center;
+    position: relative;
+    margin: 7px auto 0 auto;
+    position: relative;
+}
+
+.home-car-grey-subcard-descrip {
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    width: 725px;
+}
+
+.lifebuoy-icon {
+    font-size: 26px;
+    background: #23aae2;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 62px;
+    color: #fff;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    margin-left: -30px;
+}
