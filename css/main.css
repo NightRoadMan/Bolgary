@@ -13,6 +13,35 @@ ul, li {
     margin: 0;
 }
 
+::-webkit-input-placeholder {
+    font-family: 'Museo Sans Cyrl 100',Tahoma,sans-serif;
+    color: #b7e5ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+::-moz-placeholder {
+    font-family: 'Museo Sans Cyrl 100',Tahoma,sans-serif;
+    color: #b7e5ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    font-family: 'Museo Sans Cyrl 100',Tahoma,sans-serif;
+    color: #b7e5ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    font-family: 'Museo Sans Cyrl 100',Tahoma,sans-serif;
+    color: #b7e5ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
 /*Стилизция первой секции (меню)*/
 
 .head-background {
@@ -62,7 +91,8 @@ ul, li {
     border: 1px dashed #23aae2;
     padding: 4px 5px;
     border-radius: 50%;
-    margin: 0 10px 0 0;
+    margin: 8px 10px 0 0;
+
 }
 
 .phone-number p {
@@ -408,3 +438,198 @@ ul, li {
     border-color: #23aae2;
     background: #23aae2;
 }
+
+/*Стилизация секции Отзывы*/
+
+.reviews {
+    padding: 90px 0 90px 0;
+    background: #fff;
+}
+
+.reviews-main-caption {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.reviews-card {
+    width: 765px;
+    background: #fff;
+    padding: 40px 40px 50px 100px;
+    box-shadow: 0 2px 4px rgba(149,149,149, 0.33);
+    position: relative;
+}
+
+.reviews-avatar {
+    position: absolute;
+    top: 50%;
+    left: -69px;
+    margin-top: -69px;
+}
+
+.name-person {
+    margin: 0;
+    padding: 0;
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.link-vk {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 12px;
+    color: #23aae2;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-left: -170px;
+}
+
+.out-travel {
+    font-size: 12px;
+    color: #23aae2;
+    text-transform: uppercase;
+}
+
+.text-review {
+    font-size: 14px;
+    font-style: italic;
+    color: #363636;
+    text-align: justify;
+}
+
+.arrow-left-review {
+    font-size: 45px;
+    color: #23aae2;
+    text-align: left;
+}
+
+.arrow-right-review {
+    font-size: 45px;
+    color: #23aae2;
+    text-align: right;
+}
+
+.carousel-circle {
+    width: 19px;
+    height: 19px;
+    border: 1px dashed #23aae2;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.carousel-circles-margin {
+    margin: 50px auto 0 auto;
+}
+
+.circle-active {
+    background: #23aae2;
+}
+
+/*Стилизация секции с формой*/
+
+.blue-form {
+    background: #11b2f5 url("../img/blue-background.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 85px 0;
+    color: #fff;
+}
+
+.form-caption {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 42px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 49px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-caption + p {
+    width: 305px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 22px auto 0 auto;
+    padding: 0;
+    letter-spacing: 2px;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.form-arrow {
+    display: block;
+    margin: 37px auto 20px auto;
+}
+
+/*Стилизация инпутов в форме*/
+
+.form-input {
+    width: 370px;
+    height: 67px;
+    margin: 10px auto 0 auto;
+    padding: 30px 30px;
+    border: 2px solid #fff;
+    background: #30c2ff;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.form-submit {
+    width: 370px;
+    height: 67px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+}
+
+.form-submit:hover {
+    background: #fff;
+    color: #30c2ff;
+}
+
+.form-submit:active {
+    background: #d4d4d4;
+    color: #30c2ff;
+    border: 2px solid #d4d4d4;
+}
+
+/*Стилизация футтера*/
+
+.footer-style {
+    background: #23aae2;
+    color: #fff;
+}
+
+.copyrights {
+    color: rgba(255,255,255, 0.76);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.copyrights + p {
+    color: rgba(255,255,255, 0.76);
+    border-bottom: 1px dotted rgba(255,255,255, 0.76);
+    padding: 0 0 3px 0;
+    margin: 0 0 0 120px;
+    font-size: 14px;
+}
+
+.copy-margin {
+    margin: 28px 0 0 0;
+}
+
+.phone-color span {
+    color: #fff;
+    border-color: #fff;
+}
+
