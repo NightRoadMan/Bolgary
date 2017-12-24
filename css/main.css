@@ -19,6 +19,7 @@ ul, li {
     background: #143f57 url("../img/main-background.jpg") center top;
     background-size: cover;
     padding: 0 0 100px 0;
+    height: 100vh;
 }
 
 .main-menu_item a {
@@ -106,7 +107,7 @@ ul, li {
     height: 45px;
     text-align: center;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 45px;
     padding: 0;
     margin: 0 auto;
     margin-top: 160px;
@@ -187,3 +188,126 @@ ul, li {
     margin-left: -19px;
     top: -20px;
 }
+
+/*Cтилизаия 3-тьей секции с ракушками*/
+
+.sand-background {
+    background: #143f57 url("../img/section-sand-background.jpg") center;
+    background-size: cover;
+    padding: 95px 0 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.sand-main-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Museo Sans Cyrl 900', Tahoma, sans-serif;
+    font-size: 42px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.sand-main-blockquote {
+    font-size: 18px;
+    font-style: italic;
+    width: 450px;
+    display: block;
+    margin: 20px auto 10px auto;
+    padding: 0;
+}
+
+.sand-main-person {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Museo Sans Cyrl 900', Tahoma, sans-serif;
+}
+
+.sand-frame {
+    border: 1px dashed #fff;
+    width: 770px;
+    height: 198px;
+    margin: 46px auto 0 auto;
+    position: relative;
+}
+
+.sand-frame::before {
+    content: '';
+    background: url("../img/frame-arrow.png") center center no-repeat;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 48%;
+    top: -8%;
+}
+
+.sand-frame:after {
+    content: '';
+    background: url("../img/frame-arrow.png") center center no-repeat;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 48%;
+    bottom: -8%;
+}
+
+.sand-frame-text {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.sand-frame-question {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+.sand-main-answer {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 37px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 37px;
+    margin: 70px 0 0 0;
+}
+
+.sand-answer {
+    font-size: 18px;
+    margin: 10px 0 80px 0;
+}
+
+.see-more-button {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 20px 26px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.see-more-button:hover {
+    background: #fff;
+    color: #224663;
+    text-decoration: none;
+}
+
+.see-more-button:active {
+    border: 2px solid #c9c9c9;
+    background: #c9c9c9;
+    color: #224663;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+/*Стилизация 4-той секции Недвижемость*/
