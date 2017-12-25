@@ -666,7 +666,6 @@ ul, li {
 
 /*Media запросы*/
 
-
 @media screen and (max-width: 1199px) {
     .media-card-pad {
         margin-top: 20px;
@@ -694,8 +693,6 @@ ul, li {
     }
 }
 
-
-
 @media screen and (max-width: 991px) {
     .flex-media {
         display: flex;
@@ -706,6 +703,17 @@ ul, li {
 }
 
 @media screen and (max-width: 767px) {
+
+    .main-text-name {
+        font-size: 70px;
+        letter-spacing: 15px;
+    }
+
+    .main-text-name_descrip {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+
     .media-margin-arrow-left {
         display: none;
     }
@@ -784,8 +792,6 @@ ul, li {
         width: 90%;
         margin: 0 auto 140px auto;
     }
-
-
 }
 
 @media screen and (max-width: 475px) {
@@ -793,5 +799,53 @@ ul, li {
         width: 90%;
         margin: 0 auto;
     }
+
+    .advantages-head {
+        width: 90%;
+        margin: 0 auto 65px auto;
+        font-size: 35px;
+    }
+
+    .sand-main-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sand-main-blockquote {
+        width: 90%;
+    }
+
+    .home-car-main-text {
+        font-size: 35px;
+    }
+
+    .reviews-main-caption {
+        font-size: 35px;
+    }
+
+    .form-caption {
+        font-size: 35px;
+    }
+
+    .sand-main-answer {
+        width: 90%;
+        margin: 70px auto 0 auto;
+    }
+
+    .sand-answer {
+        width: 90%;
+        margin: 10px auto 80px auto;
+    }
 }
 
+@media screen and (max-width: 510px) {
+    .main-text-name {
+        font-size: 50px;
+        letter-spacing: 7px;
+    }
+
+    .main-text-name_descrip {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
