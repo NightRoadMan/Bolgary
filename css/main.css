@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #fff;
     font-family: 'Museo Sans Cyrl 100',Tahoma,sans-serif;
+    /*overflow-x: hidden;*/
 }
 
 /*Спецификация*/
@@ -105,6 +106,12 @@ ul, li {
 
 .number-position {
     padding: 19px 0 10px 0;
+}
+
+.burger-icon {
+    font-size: 32px;
+    line-height: 32px;
+    color: #fff;
 }
 
 .main-text-name {
@@ -219,6 +226,27 @@ ul, li {
     top: -20px;
 }
 
+.advantages-card-descrip-media {
+    color: #545454;
+    width: 310px;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-card-descrip-media::before {
+    content: '';
+    background: #c6c6c6;
+    width: 38px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    margin-left: -19px;
+    top: -20px;
+}
+
 /*Cтилизаия 3-тьей секции с ракушками*/
 
 .sand-background {
@@ -258,10 +286,10 @@ ul, li {
 
 .sand-frame {
     border: 1px dashed #fff;
-    width: 770px;
-    height: 198px;
+    padding: 60px 0;
     margin: 46px auto 0 auto;
     position: relative;
+    margin 0 auto;
 }
 
 .sand-frame::before {
@@ -358,9 +386,8 @@ ul, li {
 
 .home-car-grey-card {
     background: #f4f4f4;
-    padding: 70px 10px 40px 10px;
+    padding: 70px 20px 40px 20px;
     box-shadow: 0 2px 4px rgba(149,149,149,0.33);
-    width: 765px;
     text-align: center;
     position: relative;
     margin: 140px auto 0 auto;
@@ -386,17 +413,15 @@ ul, li {
     font-size: 17px;
     display: block;
     margin: 0 auto;
-    width: 675px;
 }
 
 .home-car-grey-subcard {
     background: #f4f4f4;
     padding: 45px 10px 45px 10px;
     box-shadow: 0 2px 4px rgba(149,149,149,0.33);
-    width: 765px;
     text-align: center;
     position: relative;
-    margin: 7px auto 130px auto;
+    margin: 7px auto 60px auto;
     position: relative;
 
 }
@@ -405,7 +430,6 @@ ul, li {
     font-size: 17px;
     display: block;
     margin: 0 auto;
-    width: 725px;
 }
 
 .lifebuoy-icon {
@@ -418,7 +442,7 @@ ul, li {
     line-height: 62px;
     color: #fff;
     position: absolute;
-    top: -20%;
+    top: -35px;
     left: 50%;
     margin-left: -30px;
 }
@@ -452,10 +476,11 @@ ul, li {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0 0 70px 0;
+    padding: 0;
 }
 
 .reviews-card {
-    width: 765px;
     background: #fff;
     padding: 40px 40px 50px 100px;
     box-shadow: 0 2px 4px rgba(149,149,149, 0.33);
@@ -484,13 +509,15 @@ ul, li {
     color: #23aae2;
     text-transform: uppercase;
     text-decoration: underline;
-    margin-left: -170px;
+    margin-left: 45px;
 }
 
 .out-travel {
     font-size: 12px;
     color: #23aae2;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
 .text-review {
@@ -498,6 +525,8 @@ ul, li {
     font-style: italic;
     color: #363636;
     text-align: justify;
+    padding: 0;
+    margin: 20px 0 0 0;
 }
 
 .arrow-left-review {
@@ -607,6 +636,7 @@ ul, li {
 .footer-style {
     background: #23aae2;
     color: #fff;
+    box-shadow: 0 -30px 100px rgba(0,0,0,0.2);
 }
 
 .copyrights {
@@ -616,12 +646,13 @@ ul, li {
     font-size: 14px;
 }
 
-.copyrights + p {
+.polytics {
     color: rgba(255,255,255, 0.76);
     border-bottom: 1px dotted rgba(255,255,255, 0.76);
     padding: 0 0 3px 0;
-    margin: 0 0 0 120px;
     font-size: 14px;
+    display: inline-block;
+    margin-top: 18px;
 }
 
 .copy-margin {
@@ -631,5 +662,136 @@ ul, li {
 .phone-color span {
     color: #fff;
     border-color: #fff;
+}
+
+/*Media запросы*/
+
+
+@media screen and (max-width: 1199px) {
+    .media-card-pad {
+        margin-top: 20px;
+    }
+
+    .advantages-card-descrip-media::before {
+        content: '';
+        background: #c6c6c6;
+        width: 38px;
+        height: 1px;
+        position: absolute;
+        left: 50%;
+        margin-left: -19px;
+        top: -20px;
+    }
+
+    .link-vk {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .image-circle {
+        top: -132px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .flex-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .media-margin-arrow-left {
+        display: none;
+    }
+
+    .media-margin-arrow-right {
+        display: none;
+    }
+    .reviews-avatar {
+        top: 0%;
+        left: 50%;
+        margin-left: -69px;
+    }
+
+    .reviews-main-caption {
+        margin: 0 0 140px 0;
+    }
+
+    .flex-media {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .flex-name-media {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 90px 30px 45px 30px;
+    }
+
+    .out-travel {
+        display: inline-block;
+    }
+    .out-travel {
+        align-self: center;
+    }
+
+    .link-vk {
+        margin-left: 0px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-input {
+        width: 90%;
+    }
+
+    .form-submit {
+        width: 90%;
+    }
+
+    .form-caption {
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .form-caption + p {
+        width: 80%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .reviews-main-caption {
+        width: 90%;
+        margin: 0 auto 140px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 475px) {
+    .home-car-main-text {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
