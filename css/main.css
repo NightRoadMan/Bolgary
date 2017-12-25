@@ -289,7 +289,7 @@ ul, li {
     padding: 60px 0;
     margin: 46px auto 0 auto;
     position: relative;
-    margin 0 auto;
+    margin: 0 auto;
 }
 
 .sand-frame::before {
@@ -703,10 +703,22 @@ ul, li {
 }
 
 @media screen and (max-width: 767px) {
+    .advantages-card-descrip {
+        width: 90%;
+        padding: 0;
+    }
 
+    .advantages-card-descrip-media {
+        width: 90%;
+        padding: 0;
+    }
     .main-text-name {
         font-size: 70px;
         letter-spacing: 15px;
+    }
+
+    .advantages-card_spec-padd {
+        padding: 48px 28px 160px 28px;
     }
 
     .main-text-name_descrip {
@@ -795,6 +807,7 @@ ul, li {
 }
 
 @media screen and (max-width: 475px) {
+
     .home-car-main-text {
         width: 90%;
         margin: 0 auto;
@@ -847,5 +860,12 @@ ul, li {
     .main-text-name_descrip {
         font-size: 25px;
         letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .advantages-card_spec-padd {
+        margin: 0 0 20px 0;
     }
 }
