@@ -695,9 +695,14 @@ ul, li {
 
 @media screen and (max-width: 991px) {
     .flex-media {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-pack: start;
         justify-content: flex-start;
+        -webkit-box-align: start;
         align-items: flex-start;
     }
 }
@@ -744,22 +749,35 @@ ul, li {
     }
 
     .flex-media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-pack: center;
         justify-content: center;
         align-content: center;
+        -webkit-box-align: center;
         align-items: center;
     }
 
     .flex-name-media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
         align-items: center;
     }
 
     .reviews-card {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
         align-items: center;
         padding: 90px 30px 45px 30px;
     }
