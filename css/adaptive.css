@@ -222,3 +222,38 @@
         margin: 0 0 20px 0;
     }
 }
+
+/*Медия для Контактов*/
+
+@media screen and (max-width: 1050px) {
+    .white-card-contact {
+        width: 100%;
+        box-shadow: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .form-input-contacts {
+        width: 90%;
+    }
+
+    .form-submit-contacts {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .media-form {
+        width: 90%;
+    }
+
+    .icon-form {
+        margin-right: -2px;
+        margin-bottom: 20px;
+    }
+
+    .contact-answer{
+        margin-bottom: 55px;
+    }
+}
