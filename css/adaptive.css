@@ -257,3 +257,51 @@
         margin-bottom: 55px;
     }
 }
+
+/*Адаптивность Переезда*/
+
+
+
+@media screen and (max-width: 990px) {
+    .house-bolg {
+        margin-top: 20px;
+    }
+    .img-description {
+        width: 90%;
+        margin: 20px 0 0 0;
+    }
+
+    .package-bolg {
+        margin: 30px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .text-size-arive {
+        font-size: 37px;
+    }
+
+    .main-arrow {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+
+    .package-bolg {
+        transform: scale(0.7);
+    }
+
+    .house-bolg {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .text-size-arive {
+        font-size: 27px;
+    }
+}
+
+
