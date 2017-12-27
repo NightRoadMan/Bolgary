@@ -586,7 +586,7 @@ ul, li {
     padding: 0;
 }
 
-.form-caption + p {
+.form-caption-descrip {
     width: 305px;
     text-align: center;
     text-transform: uppercase;
@@ -800,4 +800,32 @@ ul, li {
     text-transform: uppercase;
     padding: 0;
     margin: 0 0 15px 0;
+}
+
+/*Стилизация Недвижимости и переезда*/
+
+.contact-answer > span {
+    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+}
+
+.contact-answer-padding {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.house-bolg {
+    margin: 50px 0 0 0;
+}
+.img-description {
+    width: 410px;
+    margin: 90px 0 0 0;
+    font-size: 16px;
+}
+
+.package-bolg {
+    margin: 0 0 0 40px;
+}
+
+.form-caption-descrip-arive {
+    width: auto;
 }
