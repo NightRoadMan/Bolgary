@@ -1,0 +1,224 @@
+/*Media запросы для главной*/
+
+
+@media screen and (max-width: 1199px) {
+    .media-card-pad {
+        margin-top: 20px;
+    }
+
+    .advantages-card-descrip-media::before {
+        content: '';
+        background: #c6c6c6;
+        width: 38px;
+        height: 1px;
+        position: absolute;
+        left: 50%;
+        margin-left: -19px;
+        top: -20px;
+    }
+
+    .link-vk {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .image-circle {
+        top: -132px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .flex-media {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .advantages-card-descrip {
+        width: 90%;
+        padding: 0;
+    }
+
+    .advantages-card-descrip-media {
+        width: 90%;
+        padding: 0;
+    }
+    .main-text-name {
+        font-size: 70px;
+        letter-spacing: 15px;
+    }
+
+    .advantages-card_spec-padd {
+        padding: 48px 28px 160px 28px;
+    }
+
+    .main-text-name_descrip {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+
+    .media-margin-arrow-left {
+        display: none;
+    }
+
+    .media-margin-arrow-right {
+        display: none;
+    }
+    .reviews-avatar {
+        top: 0%;
+        left: 50%;
+        margin-left: -69px;
+    }
+
+    .reviews-main-caption {
+        margin: 0 0 140px 0;
+    }
+
+    .flex-media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        align-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .flex-name-media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .reviews-card {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 90px 30px 45px 30px;
+    }
+
+    .out-travel {
+        display: inline-block;
+    }
+    .out-travel {
+        align-self: center;
+    }
+
+    .link-vk {
+        margin-left: 0px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-input {
+        width: 90%;
+    }
+
+    .form-submit {
+        width: 90%;
+    }
+
+    .form-caption {
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .form-caption + p {
+        width: 80%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .reviews-main-caption {
+        width: 90%;
+        margin: 0 auto 140px auto;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .home-car-main-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .advantages-head {
+        width: 90%;
+        margin: 0 auto 65px auto;
+        font-size: 35px;
+    }
+
+    .sand-main-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sand-main-blockquote {
+        width: 90%;
+    }
+
+    .home-car-main-text {
+        font-size: 35px;
+    }
+
+    .reviews-main-caption {
+        font-size: 35px;
+    }
+
+    .form-caption {
+        font-size: 35px;
+    }
+
+    .sand-main-answer {
+        width: 90%;
+        margin: 70px auto 0 auto;
+    }
+
+    .sand-answer {
+        width: 90%;
+        margin: 10px auto 80px auto;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .main-text-name {
+        font-size: 50px;
+        letter-spacing: 7px;
+    }
+
+    .main-text-name_descrip {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .advantages-card_spec-padd {
+        margin: 0 0 20px 0;
+    }
+}
