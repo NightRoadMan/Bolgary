@@ -288,7 +288,7 @@ ul, li {
 .sand-main-person {
     font-size: 14px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 45px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Museo Sans Cyrl 900', Tahoma, sans-serif;
@@ -760,7 +760,7 @@ ul, li {
 .form-back {
     background: #11b2f5;
     border-radius: 5px;
-    padding: 45px 10px 45px 10px;
+    padding: 45px 30px 45px 30px;
     color: #fff;
     margin: 60px 0 0 0;
 }
@@ -801,4 +801,3 @@ ul, li {
     padding: 0;
     margin: 0 0 15px 0;
 }
-
