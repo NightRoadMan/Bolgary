@@ -169,7 +169,7 @@
     .advantages-head {
         width: 90%;
         margin: 0 auto 65px auto;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .sand-main-text {
@@ -182,15 +182,15 @@
     }
 
     .home-car-main-text {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .reviews-main-caption {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .form-caption {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .sand-main-answer {
@@ -236,6 +236,15 @@
 @media screen and (max-width: 995px) {
     .form-input-contacts {
         width: 90%;
+    }
+
+    .grey-card-1 {
+        margin-left: 0;
+    }
+
+    .grey-card-2 {
+        margin-right: 0;
+        padding-bottom: 141px;
     }
 
     .form-submit-contacts {
@@ -285,15 +294,27 @@
     .main-arrow {
         margin-bottom: 100px;
     }
+
+    .grey-card-2 {
+        padding-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .grey-text-main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 465px) {
 
     .package-bolg {
+        -webkit-transform: scale(0.7);
         transform: scale(0.7);
     }
 
     .house-bolg {
+        -webkit-transform: scale(0.7);
         transform: scale(0.7);
     }
 }
@@ -303,5 +324,4 @@
         font-size: 27px;
     }
 }
-
 
