@@ -60,6 +60,7 @@ ul, li {
     text-decoration: none;
     font-size: 11px;
     font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
     background: rgba(255,255,255,0);
     padding: 8px 8px;
     border-radius: 3px;
@@ -107,6 +108,7 @@ ul, li {
     padding: 0;
     margin: 0;
     font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
     color: #fff;
     font-size: 16px;
 }
@@ -137,6 +139,7 @@ ul, li {
 
 .main-text-name {
     font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
     font-size: 90px;
     text-transform: uppercase;
     color: #fff;
@@ -183,6 +186,7 @@ ul, li {
 
 .advantages-head {
     font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
     font-size: 42px;
     color: #000;
     text-transform: uppercase;
@@ -344,7 +348,7 @@ ul, li {
 }
 
 .sand-frame-question {
-    font-family: 'Museo Sans Cyrl 900',Tahoma, sans-serif;
+
     font-weight: 900;
     font-size: 23px;
     text-transform: uppercase;
